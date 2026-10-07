@@ -1,0 +1,5 @@
+.env 
+__pycache__/ 
+uploaded_pdfs/ 
+sample_for_chunking.pdf 
+venv/ 
