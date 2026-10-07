@@ -18,15 +18,24 @@ This project allows you to ingest PDF documents, clean and chunk their contents,
 
 ## 📁 Project Structure
 
-.
+..
+
 ├── api.py                  # FastAPI application exposing /health, /ingest, and /ask
+
 ├── config.py               # Environment configuration and validation loader
+
 ├── embedding_provider.py   # Embedding provider with model fallback support
+
 ├── ingest.py               # PDF text extraction, chunking, and Pinecone upsert logic
+
 ├── llm_provider.py         # Google Gemini LLM provider with model fallback support
+
 ├── make_sample_pdf.py      # Utility script to generate a sample test PDF
+
 ├── query.py                # Retrieval and LLM QA generation pipeline
+
 ├── requirements.txt        # Project dependencies
+
 └── streamlit_app.py        # Streamlit frontend user interface
 
 ---
